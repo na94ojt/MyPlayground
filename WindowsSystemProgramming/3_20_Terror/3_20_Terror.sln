@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MalWare", "MalWare\MalWare.vcxproj", "{38021551-35CC-4BD2-8CA1-6479BFD2E391}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UpdateClient", "UpdateServer\UpdateServer.vcxproj", "{2E4A1B0A-3145-42D0-9FC7-7A5D0E0CC302}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UpdateServer", "UpdateClient\UpdateClient.vcxproj", "{CE8AA1F4-D0DA-43B8-8D8E-5974908C6554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38021551-35CC-4BD2-8CA1-6479BFD2E391}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38021551-35CC-4BD2-8CA1-6479BFD2E391}.Debug|Win32.Build.0 = Debug|Win32
+		{38021551-35CC-4BD2-8CA1-6479BFD2E391}.Release|Win32.ActiveCfg = Release|Win32
+		{38021551-35CC-4BD2-8CA1-6479BFD2E391}.Release|Win32.Build.0 = Release|Win32
+		{2E4A1B0A-3145-42D0-9FC7-7A5D0E0CC302}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E4A1B0A-3145-42D0-9FC7-7A5D0E0CC302}.Debug|Win32.Build.0 = Debug|Win32
+		{2E4A1B0A-3145-42D0-9FC7-7A5D0E0CC302}.Release|Win32.ActiveCfg = Release|Win32
+		{2E4A1B0A-3145-42D0-9FC7-7A5D0E0CC302}.Release|Win32.Build.0 = Release|Win32
+		{CE8AA1F4-D0DA-43B8-8D8E-5974908C6554}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE8AA1F4-D0DA-43B8-8D8E-5974908C6554}.Debug|Win32.Build.0 = Debug|Win32
+		{CE8AA1F4-D0DA-43B8-8D8E-5974908C6554}.Release|Win32.ActiveCfg = Release|Win32
+		{CE8AA1F4-D0DA-43B8-8D8E-5974908C6554}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

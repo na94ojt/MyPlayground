@@ -1,0 +1,20 @@
+﻿빌드 시작: 2014-08-30 오후 2:34:54
+     1>2 노드의 "C:\Users\준택\Desktop\Chatting\Chatting_Client\Chatting_Client.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Chatting_Client.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Chatting_ClientDlg.cpp
+         Chatting_ClientDlg.cpp
+     1>c:\users\준택\desktop\chatting\chatting_client\chatting_clientdlg.cpp(118): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(294) : 'wcscpy' 선언을 참조하십시오.
+     1>c:\users\준택\desktop\chatting\chatting_client\chatting_clientdlg.cpp(122): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(294) : 'wcscpy' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\준택\Desktop\Chatting\Debug\Chatting_Client.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\준택\Desktop\Chatting\Debug\Chatting_Client.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\준택\Desktop\Chatting\Debug\Chatting_Client.lib" /MACHINE:X86 Debug\Chatting_Client.res
+         Debug\Chatting_Client.obj
+         Debug\Chatting_ClientDlg.obj
+         Debug\stdafx.obj
+         Chatting_Client.vcxproj -> C:\Users\준택\Desktop\Chatting\Debug\Chatting_Client.exe
+     1>"C:\Users\준택\Desktop\Chatting\Chatting_Client\Chatting_Client.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.63

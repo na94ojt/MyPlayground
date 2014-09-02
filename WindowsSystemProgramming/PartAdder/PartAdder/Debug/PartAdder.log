@@ -1,0 +1,11 @@
+﻿빌드 시작: 2014-03-20 오후 11:34:04
+     1>2 노드의 "D:\Programming\WindowsSystemProgramming\PartAdder\PartAdder\PartAdder.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programming\WindowsSystemProgramming\PartAdder\Debug\PartAdder.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Programming\WindowsSystemProgramming\PartAdder\Debug\PartAdder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programming\WindowsSystemProgramming\PartAdder\Debug\PartAdder.lib" /MACHINE:X86 Debug\PartAdder.obj
+         Debug\stdafx.obj
+         PartAdder.vcxproj -> D:\Programming\WindowsSystemProgramming\PartAdder\Debug\PartAdder.exe
+     1>"D:\Programming\WindowsSystemProgramming\PartAdder\PartAdder\PartAdder.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.62
