@@ -9,53 +9,30 @@ using namespace cv;
 
 #define MAXCLNT 10
 
-typedef struct
-{
-	CvSize size;
-	int imageSize;
-}SENDDATA;
-
 SOCKET g_clnt_sock[MAXCLNT];
 
 unsigned WINAPI cctvsender(void* arg)
 {
 	IplImage* image = 0;
 	CvCapture* capture = cvCaptureFromCAM(0);
-	SENDDATA senddata;
 	char* SendImageData;
 
 	while (1)
 	{
 		cvGrabFrame(capture);
 		image = cvRetrieveFrame(capture);
-		
-		SendImageData = (char*)malloc(image->imageSize);
-
-		senddata.size.height = image->height;
-		senddata.size.width = image->width;
-		senddata.imageSize = image->imageSize;
-		memcpy(SendImageData, image->imageData, image->imageSize);
-
-		
-
 
 		for (int i = 0; i < MAXCLNT; i++)
 		{
 			if (0 != g_clnt_sock[i])
 			{
-				if (-1 == send(g_clnt_sock[i], (char*)&senddata, sizeof(senddata), 0))
-				{
-					g_clnt_sock[i] = 0;
-				}
-				if (-1 == send(g_clnt_sock[i], (char*)SendImageData, image->imageSize, 0))
+				if (-1 == send(g_clnt_sock[i], (char*)image->imageData, image->imageSize, 0))
 				{
 					g_clnt_sock[i] = 0;
 				}
 			}
 		}
 
-		free(SendImageData);
-		cvShowImage("CCTV", image);
 		if (0 <= cvWaitKey(10))
 		{
 			break;
@@ -63,6 +40,8 @@ unsigned WINAPI cctvsender(void* arg)
 
 	}
 
+	cvReleaseImage(&image);
+	cvReleaseCapture(&capture);
 	return 0;
 }
 

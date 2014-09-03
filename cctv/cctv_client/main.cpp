@@ -2,15 +2,7 @@
 #include <opencv\highgui.h>
 #include <WinSock2.h>
 
-using namespace cv;
-
 #pragma comment(lib, "ws2_32.lib")
-
-typedef struct
-{
-	CvSize size;
-	int imageSize;
-}RECVDATA;
 
 int main()
 {
@@ -35,29 +27,18 @@ int main()
 		return -1;
 	}
 
-	char* RecvImageData;
-	IplImage* image = cvCreateImageHeader({ 640, 480 }, IPL_DEPTH_8U, 3);
-	RECVDATA recvdata;
+	IplImage* image = cvCreateImageHeader({ 640, 480 }, IPL_DEPTH_8U, 3);\
+	image->imageSize = 921600;
+	char RecvImageData[921600];
+	image->imageData = RecvImageData;
 
 	while (1)
 	{
-		if (-1 == recv(sock, (char*)&recvdata, sizeof(recvdata), 0))
-		{
-			printf("1\n");
-			return -1;
-		}
-
-		image->imageSize = recvdata.imageSize;
-
-		RecvImageData = (char*)malloc(image->imageSize);
-
 		if (-1 == recv(sock, (char*)RecvImageData, image->imageSize, 0))
 		{
 			printf("2\n");
 			return -1;
 		}
-
-		image->imageData = RecvImageData;
 
 		cvShowImage("CCTV", image);
 		
@@ -66,6 +47,9 @@ int main()
 			break;
 		}
 	}
+
+	cvDestroyWindow("CCTV");
+	cvReleaseImage(&image);
 
 	return 0;
 }
