@@ -9,35 +9,58 @@ using namespace cv;
 
 #define MAXCLNT 10
 
-SOCKET g_clnt_sock[MAXCLNT] = { 0, };
+typedef struct
+{
+	CvSize size;
+	int imageSize;
+}SENDDATA;
+
+SOCKET g_clnt_sock[MAXCLNT];
 
 unsigned WINAPI cctvsender(void* arg)
 {
-	Mat newC;
 	IplImage* image = 0;
 	CvCapture* capture = cvCaptureFromCAM(0);
+	SENDDATA senddata;
+	char* SendImageData;
 
 	while (1)
 	{
 		cvGrabFrame(capture);
 		image = cvRetrieveFrame(capture);
-		newC = cvarrToMat(image);
+		
+		SendImageData = (char*)malloc(image->imageSize);
+
+		senddata.size.height = image->height;
+		senddata.size.width = image->width;
+		senddata.imageSize = image->imageSize;
+		memcpy(SendImageData, image->imageData, image->imageSize);
+
+		
+
 
 		for (int i = 0; i < MAXCLNT; i++)
 		{
 			if (0 != g_clnt_sock[i])
 			{
-				if (-1 == send(g_clnt_sock[i], (char*)&newC, sizeof(newC), 0))
+				if (-1 == send(g_clnt_sock[i], (char*)&senddata, sizeof(senddata), 0))
 				{
-					g_clnt_sock[i] = -1;
+					g_clnt_sock[i] = 0;
+				}
+				if (-1 == send(g_clnt_sock[i], (char*)SendImageData, image->imageSize, 0))
+				{
+					g_clnt_sock[i] = 0;
 				}
 			}
 		}
 
+		free(SendImageData);
+		cvShowImage("CCTV", image);
 		if (0 <= cvWaitKey(10))
 		{
 			break;
 		}
+
 	}
 
 	return 0;
@@ -74,6 +97,9 @@ int main()
 	{
 		return -1;
 	}
+
+	ZeroMemory(g_clnt_sock, sizeof(g_clnt_sock));
+
 	_beginthreadex(NULL, 0, cctvsender, NULL, 0, NULL);
 	while (1)
 	{
