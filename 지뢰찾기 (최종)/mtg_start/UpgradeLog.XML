@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ex">
+</Property><Property Name="솔루션 파일" Value="C:\Users\OJT\Desktop\mtg_start\ex.sln">
+</Property><Property Name="사용자 옵션 파일" Value="C:\Users\OJT\Desktop\mtg_start\ex.suo">
+</Property><Property Name="Date" Value="2013년 6월 10일 월요일">
+</Property><Property Name="Time" Value="오전 3:12">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ex.sln" Description="파일을 C:\Users\OJT\Desktop\mtg_start\ex.sln.old(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="" Source="ex.suo" Description="파일을 C:\Users\OJT\Desktop\mtg_start\ex.suo.old(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="ex" Source="ex.vcproj" Description="Converting project file 'C:\Users\OJT\Desktop\mtg_start\ex.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ex" Source="ex.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ex" Source="ex.vcproj" Description="Done converting to new project file 'C:\Users\OJT\Desktop\mtg_start\ex.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ex" Source="ex.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ex.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="ex.sln" Description="Converted">
+</Event></UpgradeLog>

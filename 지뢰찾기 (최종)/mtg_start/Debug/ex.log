@@ -1,0 +1,31 @@
+﻿빌드 시작: 2013-06-10 오전 3:54:03
+     1>2 노드의 "C:\Users\OJT\Desktop\mtg_start\ex.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\ex.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ex.c
+         ex.c
+     1>c:\users\ojt\desktop\mtg_start\ex.c(101): warning C4013: 'sprintf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\ojt\desktop\mtg_start\ex.c(117): warning C4013: '_DrawTextColorOrg'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+     1>c:\users\ojt\desktop\mtg_start\ex.c(673): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+     1>c:\users\ojt\desktop\mtg_start\ex.c(442): warning C4715: 'Mystart' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\OJT\Desktop\mtg_start\Debug\ex.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ex.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\OJT\Desktop\mtg_start\Debug\ex.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\OJT\Desktop\mtg_start\Debug\ex.lib" /MACHINE:X86 Debug\ex.exe.embed.manifest.res
+         Debug\ex.obj
+         Debug\mtg.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ex.exe.embed.manifest" /manifest Debug\ex.exe.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         ex.vcxproj -> C:\Users\OJT\Desktop\mtg_start\Debug\ex.exe
+       FinalizeBuildStatus:
+         "Debug\ex.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\ex.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\OJT\Desktop\mtg_start\ex.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.56

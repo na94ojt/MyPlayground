@@ -1,0 +1,42 @@
+D:\오준택\PuzzleClient\PuzzleClient\bin\Debug\PuzzleClient.exe
+D:\오준택\PuzzleClient\PuzzleClient\bin\Debug\PuzzleClient.pdb
+D:\오준택\PuzzleClient\PuzzleClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\오준택\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.Form1.resources
+D:\오준택\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.Properties.Resources.resources
+D:\오준택\PuzzleClient\PuzzleClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\오준택\PuzzleClient\PuzzleClient\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\오준택\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.exe
+D:\오준택\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.pdb
+C:\Documents and Settings\Administrator\바탕 화면\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.exe
+C:\Documents and Settings\Administrator\바탕 화면\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.pdb
+C:\Documents and Settings\Administrator\바탕 화면\PuzzleClient\PuzzleClient\bin\Debug\PuzzleClient.exe
+C:\Documents and Settings\Administrator\바탕 화면\PuzzleClient\PuzzleClient\bin\Debug\PuzzleClient.pdb
+C:\Documents and Settings\Administrator\바탕 화면\PuzzleClient\PuzzleClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\바탕 화면\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.Form1.resources
+C:\Documents and Settings\Administrator\바탕 화면\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.Properties.Resources.resources
+C:\Documents and Settings\Administrator\바탕 화면\PuzzleClient\PuzzleClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\바탕 화면\PuzzleClient\PuzzleClient\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\WhiteHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.exe
+E:\WhiteHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.pdb
+E:\WhiteHat\PuzzleClient\PuzzleClient\bin\Debug\PuzzleClient.exe
+E:\WhiteHat\PuzzleClient\PuzzleClient\bin\Debug\PuzzleClient.pdb
+E:\WhiteHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.csprojResolveAssemblyReference.cache
+E:\WhiteHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.Form1.resources
+E:\WhiteHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.Properties.Resources.resources
+E:\WhiteHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.csproj.GenerateResource.Cache
+D:\Programming\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.exe
+D:\Programming\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.pdb
+D:\Programming\PuzzleClient\PuzzleClient\bin\Debug\PuzzleClient.exe
+D:\Programming\PuzzleClient\PuzzleClient\bin\Debug\PuzzleClient.pdb
+D:\Programming\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.csprojResolveAssemblyReference.cache
+D:\Programming\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.Form1.resources
+D:\Programming\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.Properties.Resources.resources
+D:\Programming\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.csproj.GenerateResource.Cache
+D:\서울호서전문학교\WhitrHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.exe
+D:\서울호서전문학교\WhitrHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.pdb
+D:\서울호서전문학교\WhitrHat\PuzzleClient\PuzzleClient\bin\Debug\PuzzleClient.exe
+D:\서울호서전문학교\WhitrHat\PuzzleClient\PuzzleClient\bin\Debug\PuzzleClient.pdb
+D:\서울호서전문학교\WhitrHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.csprojResolveAssemblyReference.cache
+D:\서울호서전문학교\WhitrHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.Form1.resources
+D:\서울호서전문학교\WhitrHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.Properties.Resources.resources
+D:\서울호서전문학교\WhitrHat\PuzzleClient\PuzzleClient\obj\x86\Debug\PuzzleClient.csproj.GenerateResource.Cache

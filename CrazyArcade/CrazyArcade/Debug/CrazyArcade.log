@@ -1,0 +1,54 @@
+﻿빌드 시작: 2015-01-03 오후 10:40:24
+     1>2 노드의 "E:\로컬 디스크 (D)\게임프로젝트\CrazyArcade\CrazyArcade\CrazyArcade.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\CrazyArcade.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CrazyArcade.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CrazyArcade.cpp KBomb.cpp KDBuffer.cpp KDC.cpp KExplosion.cpp KGame.cpp KKeyboard.cpp KMedia.cpp KPlayer.cpp main.cpp
+         main.cpp
+         KPlayer.cpp
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(386): warning C4805: '==' : 연산에 'bool' 형식과 'BOOL' 형식을 함께 사용하는 것은 안전하지 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(419): warning C4805: '==' : 연산에 'bool' 형식과 'BOOL' 형식을 함께 사용하는 것은 안전하지 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(452): warning C4805: '==' : 연산에 'bool' 형식과 'BOOL' 형식을 함께 사용하는 것은 안전하지 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(485): warning C4805: '==' : 연산에 'bool' 형식과 'BOOL' 형식을 함께 사용하는 것은 안전하지 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(518): warning C4805: '==' : 연산에 'bool' 형식과 'BOOL' 형식을 함께 사용하는 것은 안전하지 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(551): warning C4805: '==' : 연산에 'bool' 형식과 'BOOL' 형식을 함께 사용하는 것은 안전하지 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(584): warning C4805: '==' : 연산에 'bool' 형식과 'BOOL' 형식을 함께 사용하는 것은 안전하지 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(617): warning C4805: '==' : 연산에 'bool' 형식과 'BOOL' 형식을 함께 사용하는 것은 안전하지 않습니다.
+         KMedia.cpp
+         KKeyboard.cpp
+         KGame.cpp
+         KExplosion.cpp
+         KDC.cpp
+         KDBuffer.cpp
+         KBomb.cpp
+         CrazyArcade.cpp
+         코드를 생성하고 있습니다...
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(400): warning C4715: 'KPlayer::SlideUpLeft' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(466): warning C4715: 'KPlayer::SlideDownLeft' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(499): warning C4715: 'KPlayer::SlideDownRight' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(532): warning C4715: 'KPlayer::SlideLeftDown' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(565): warning C4715: 'KPlayer::SlideLeftUp' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(433): warning C4715: 'KPlayer::SlideUpRight' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(631): warning C4715: 'KPlayer::SlideRightUp' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>e:\로컬 디스크 (d)\게임프로젝트\crazyarcade\crazyarcade\kplayer.cpp(598): warning C4715: 'KPlayer::SlideRightDown' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\CrazyArcade.res" CrazyArcade.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\로컬 디스크 (D)\게임프로젝트\CrazyArcade\Debug\CrazyArcade.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\로컬 디스크 (D)\게임프로젝트\CrazyArcade\Debug\CrazyArcade.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\로컬 디스크 (D)\게임프로젝트\CrazyArcade\Debug\CrazyArcade.lib" /MACHINE:X86 Debug\CrazyArcade.res
+         Debug\CrazyArcade.obj
+         Debug\KBomb.obj
+         Debug\KDBuffer.obj
+         Debug\KDC.obj
+         Debug\KExplosion.obj
+         Debug\KGame.obj
+         Debug\KKeyboard.obj
+         Debug\KMedia.obj
+         Debug\KPlayer.obj
+         Debug\main.obj
+         Debug\stdafx.obj
+         CrazyArcade.vcxproj -> E:\로컬 디스크 (D)\게임프로젝트\CrazyArcade\Debug\CrazyArcade.exe
+     1>"E:\로컬 디스크 (D)\게임프로젝트\CrazyArcade\CrazyArcade\CrazyArcade.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:05.96
